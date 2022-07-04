@@ -17,11 +17,12 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange red);
+    background-image: linear-gradient(orange,red);
     padding: 5px 15px;
-    font-weight: 500;
+    font-weight: 600;
+    color: white;
     border-radius: 4px;
-    color: aqua;
+    
 }
 .left-banner img{
     width: 80%;
