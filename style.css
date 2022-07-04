@@ -6,9 +6,10 @@ span{
 }
 body{
     font-family:'Times New Roman', Times, serif;
+    margin: 0%;
 
 }
-section{
+.top-banner{
     display: flex;
 }
 .left-banner{
@@ -20,11 +21,25 @@ section{
     background-image: linear-gradient(orange,red);
     padding: 5px 15px;
     font-weight: 600;
-    color: white;
+    color: white ;
     border-radius: 4px;
     
 }
 .left-banner img{
     width: 80%;
     padding-left: 3%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner{
+    width: 50%;
+    padding-right: 10%;
 }
